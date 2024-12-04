@@ -1,0 +1,23 @@
+{
+	"name": "call-bind-apply-helpers",
+	"version": "0.0.0",
+	"description": "Helper functions around Function call/apply/bind, for use in `call-bind`",
+	"main": "index.js",
+	"exports": {
+		".": "./index.js",
+		"./package.json": "./package.json"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ljharb/call-bind-apply-helpers.git"
+	},
+	"author": "Jordan Harband <ljharb@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ljharb/call-bind-apply-helpers/issues"
+	},
+	"homepage": "https://github.com/ljharb/call-bind-apply-helpers#readme"
+}
