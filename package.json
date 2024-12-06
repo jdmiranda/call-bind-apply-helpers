@@ -1,6 +1,6 @@
 {
 	"name": "call-bind-apply-helpers",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Helper functions around Function call/apply/bind, for use in `call-bind`",
 	"main": "index.js",
 	"exports": {
