@@ -6,5 +6,8 @@ var $apply = require('./functionApply');
 var $call = require('./functionCall');
 var $reflectApply = require('./reflectApply');
 
+// Cache the bound apply function to avoid repeated bind operations
+var boundApply = $reflectApply || bind.call($call, $apply);
+
 /** @type {import('./actualApply')} */
-module.exports = $reflectApply || bind.call($call, $apply);
+module.exports = boundApply;
